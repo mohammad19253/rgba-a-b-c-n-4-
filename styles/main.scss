@@ -1,0 +1,21 @@
+.main-container{
+    .box-container{
+        display: grid;
+        >div{
+            height: 160px;
+        }
+    }
+    input[type=color]{
+        border: none;
+    }
+    h1,h5{
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        *{
+            margin: 5px;
+        }
+    }
+}
